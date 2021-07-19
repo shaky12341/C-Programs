@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+
+ //Declare two variables
+ int num;
+ int num1;
+ clrscr();
+
+ //Input Numbers
+ printf("\nEnter Two Integer Numbers : ");
+ scanf("%d %d",&num,&num1);
+
+ //Print
+ printf("\nAddition : %d",(num+num1));
+
+ getch();
+}
