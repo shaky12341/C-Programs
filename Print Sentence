@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+#include<String.h>
+
+void main()
+{
+
+ //Declare variable
+ char s[100];
+ clrscr();
+
+ //Input String
+ printf("\nEnter Sentence : \n\t\t");
+ gets(s);
+
+ //Print String
+ printf("\n%s",s);
+
+ getch();
+}
