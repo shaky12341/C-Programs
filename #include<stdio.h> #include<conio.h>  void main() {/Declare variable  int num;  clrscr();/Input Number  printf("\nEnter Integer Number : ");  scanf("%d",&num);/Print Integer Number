@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+
+ //Declare variable
+ int num;
+ clrscr();
+
+ //Input Number
+ printf("\nEnter Integer Number : ");
+ scanf("%d",&num);
+
+ //Print String
+ printf("\nInteger Number : %d",num);
+
+ getch();
+}
