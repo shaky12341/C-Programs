@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+
+ //Declare two variables
+ float num;
+ float num1;
+ clrscr();
+
+ //Input Numbers
+ printf("\nEnter Two Float Numbers : ");
+ scanf("%f %f",&num,&num1);
+
+ //Print
+ printf("\nMultiplication : %f",(num*num1));
+
+ getch();
+}
