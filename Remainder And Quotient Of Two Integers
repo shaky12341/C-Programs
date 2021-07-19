@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+
+ //Declare variable
+ int num1;
+ int num2;
+ clrscr();
+
+ //Input
+ printf("\nEnter Two Numbers : ");
+ scanf("%d%d",&num1,&num2);
+
+ //Print
+ printf("\nRemainder : %d",num1%num2);
+ printf("\nQuoitient : %d",num1/num2);
+
+ getch();
+}
