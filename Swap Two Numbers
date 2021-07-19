@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+
+ //Declare variable
+ int a;
+ int b;
+ int c;
+ clrscr();
+
+  //Input
+ printf("\n Enter Two Numbers : ");
+ scanf("%d%d",&a,&b);
+
+ //swap
+ c=a;
+ a=b;
+ b=c;
+
+ //Print
+ printf("\nAfter Swapping :");
+ printf("\n First Number : %d",a);
+ printf("\n Second Number : %d",b);
+
+ getch();
+}
