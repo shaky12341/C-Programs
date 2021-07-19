@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+
+ //Declare variable
+ int i;
+ float f;
+ double d;
+ char c;
+ clrscr();
+
+ //Print
+ printf("\nSize of int : %lu bytes",sizeof(i));
+ printf("\nSize of float : %lu bytes",sizeof(f));
+ printf("\nSize of double : %lu bytes",sizeof(d));
+ printf("\nSize of char : %lu bytes",sizeof(c));
+
+ getch();
+}
