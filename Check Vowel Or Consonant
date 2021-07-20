@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+
+ //Declare variable
+ char ch;;
+ clrscr();
+
+  //Input
+ printf("\nEnter Character : ");
+ scanf("%c",&ch);
+
+ //check whether inputed number is vowel or consonant
+ if(ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U' || ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u')
+  printf("\nVowel");
+ else
+  printf("\nConsonant");
+
+ getch();
+}
