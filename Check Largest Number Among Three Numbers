@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+
+ //Declare variable
+ int num1;
+ int num2;
+ int num3;
+ clrscr();
+
+ //Input
+ printf("\nEnter First Number : ");
+ scanf("%d",&num1);
+ printf("\nEnter Second Number : ");
+ scanf("%d",&num2);
+ printf("\nEnter Third Number : ");
+ scanf("%d",&num3);
+
+ //check largest number among three numbers
+ if((num1>num2) && (num1>num3))
+  printf("\nLargest number : %d",num1);
+ else if((num2>=num1) && (num2>=num3))
+  printf("\nLargest number : %d",num2);
+ else if((num3>=num1) && (num3>=num2))
+  printf("\nLargest number : %d",num3);
+ else
+  printf("\nAll are equal");
+
+ getch();
+}
