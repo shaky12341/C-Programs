@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+
+ //Declare variable
+ int num;
+ clrscr();
+
+  //Input
+ printf("\nEnter Number : ");
+ scanf("%d",&num);
+
+ //check whether inputed number is even or odd
+ if(num%2==0)
+  printf("\nEven Number");
+ else
+  printf("\nOdd Number");
+
+ getch();
+}
